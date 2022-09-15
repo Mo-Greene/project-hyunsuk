@@ -4,7 +4,7 @@ import lombok.*;
 
 import java.sql.Timestamp;
 
-@Getter
+@Data
 public class cms__article {
 
     private Long article_id;
